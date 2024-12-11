@@ -1,0 +1,190 @@
+{
+  "slides": [
+    {
+      "title": "Cloud computing essentials and projects on edge with Cloudflare",
+      "content": [
+        "A comprehensive guide to modern cloud infrastructure"
+      ]
+    },
+    {
+      "title": "Who I am",
+      "content": [
+        "• Sooraj",
+        "Product Lead engineer, Obso Automation",
+        [
+          "• Keele Advanced CS grad 2022",
+          "• Best performance in cohort",
+          "• British council GREAT Scholar",
+          "• Working on instu.com, Paxable, Opentranslate.dev",
+          "• IEEE CS Volunteer for 6 years",
+          "• Led my chapter to win best Global chapter award",
+          "• Led a team of 100+ students and trained them"
+        ]
+      ]
+    },
+    {
+      "title": "Let's set some goals",
+      "content": [
+        [
+          "• GET CERTIFIED",
+          "• HOST YOUR PORTFOLIO"
+        ]
+      ]
+    },
+    {
+      "title": "What is cloud computing?",
+      "content": [
+        "Cloud computing is the delivery of computing services over the internet ('the cloud')"
+      ]
+    },
+    {
+      "title": "Think of it as Pizza as a Service 🍕",
+      "content": [
+        [
+          "Making Pizza at Home (Traditional Computing):",
+          "- Buy all ingredients",
+          "- Own an oven",
+          "- Cook everything yourself",
+          "- Clean up after"
+        ],
+        [
+          "Ordering Pizza (Cloud Computing):",
+          "- Order what you need",
+          "- Pay for what you eat",
+          "- No kitchen needed",
+          "- No cleanup required"
+        ],
+        "Key Point: Just like you don't need a pizza oven at home, you don't usually need servers in your office!"
+      ]
+    },
+    {
+      "title": "Cloud Service Models",
+      "content": [
+        "Let's Stick to Our Pizza Analogy!",
+        [
+          "Infrastructure as a Service (IaaS)",
+          "- Like renting a kitchen",
+          "- You bring ingredients and cook",
+          "- Example: Amazon EC2 - your virtual kitchen!"
+        ],
+        [
+          "Platform as a Service (PaaS)",
+          "- Like having the kitchen and basic ingredients",
+          "- You just follow the recipe",
+          "- Example: Heroku - ready to cook!"
+        ],
+        [
+          "Software as a Service (SaaS)",
+          "- Like ordering a ready-made pizza",
+          "- Just eat and enjoy",
+          "- Example: Gmail - ready to use!"
+        ]
+      ]
+    },
+    {
+      "title": "Understanding Computer Networks - The OSI Model",
+      "content": [
+        "It's Just Like a Postal System! 📬",
+        "Think of sending a letter to your friend:",
+        [
+          "Layer 1 (Physical) - The Road",
+          "- Like the actual roads and paths",
+          "- In networks: Actual cables and wireless signals",
+          "- 'How does the message physically travel?'"
+        ],
+        [
+          "Layer 2 (Data Link) - The Local Post Office",
+          "- Like addressing letters to local addresses",
+          "- In networks: MAC addresses, local network",
+          "- 'How do devices talk within the same neighborhood?'"
+        ],
+        [
+          "Layer 3 (Network) - The National Postal System",
+          "- Like the system that routes between cities",
+          "- In networks: IP addresses, routing",
+          "- Famous example: 'How does a letter get from New York to LA?'"
+        ],
+        [
+          "Layer 4 (Transport) - Package Types",
+          "- Like choosing between regular mail or express delivery",
+          "- TCP: Like certified mail (reliable, tracked)",
+          "- UDP: Like regular mail (faster but no guarantees)",
+          "- 'How do we ensure the package arrives correctly?'"
+        ],
+        [
+          "Layer 7 (Application) - The Letter Content",
+          "- Like the actual message you write",
+          "- In networks: HTTP, FTP, SSH",
+          "- 'What are you actually trying to communicate?'"
+        ]
+      ]
+    },
+    {
+      "title": "Virtual Private Cloud (VPC)",
+      "content": [
+        "Your Private City in the Cloud 🌆",
+        [
+          "Public Cloud = Public City",
+          "- Everyone shares streets",
+          "- Public transportation",
+          "- Open businesses",
+          "- Shared resources"
+        ],
+        [
+          "VPC = Private Building",
+          "- Private roads",
+          "- Controlled entrances",
+          "- Your own rules",
+          "- Custom layout",
+          "- Complete isolation"
+        ]
+      ]
+    },
+    {
+      "title": "IP Addresses & Subnets",
+      "content": [
+        "Think of a Large Office Building 🏢",
+        [
+          "IP Addresses",
+          "- Like room numbers in a building",
+          "- 192.168.1.1 is like saying 'Floor 192, Room 1'",
+          "- Public IP: The building's street address",
+          "- Private IP: The room number inside"
+        ],
+        [
+          "Subnets",
+          "- Like dividing the building into departments",
+          "- Marketing: Floor 1",
+          "- Engineering: Floor 2",
+          "- Each floor has its own numbering system"
+        ]
+      ]
+    },
+    {
+      "title": "Cloud Database Types",
+      "content": [
+        [
+          "When to Use Relational (RDS):",
+          "- Data is structured",
+          "- Need ACID compliance",
+          "- Complex queries needed",
+          "- Transactions important"
+        ],
+        [
+          "When to Use NoSQL:",
+          "- Flexible schema needed",
+          "- Huge scale expected",
+          "- Quick access required",
+          "- Simple queries suffice"
+        ],
+        [
+          "When to Use Cache:",
+          "- Speed is crucial",
+          "- Data is temporary",
+          "- Reducing database load",
+          "- Real-time features"
+        ]
+      ]
+    }
+  ]
+} 
