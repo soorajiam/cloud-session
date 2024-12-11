@@ -51,6 +51,12 @@ export default defineNuxtConfig({
     },
   },
 
+  nitro: {
+    externals: {
+      inline: ['readable-stream']
+    }
+  },
+
   // nitro: {
   //   preset: 'cloudflare-pages',
   //   output: {
@@ -63,9 +69,9 @@ export default defineNuxtConfig({
   //   }
   // },
 
-  experimental: {
-    payloadExtraction: false
-  },
+  // experimental: {
+  //   payloadExtraction: false
+  // },
 
   runtimeConfig: {
     openaiApiKey: process.env.OPENAI_API_KEY
