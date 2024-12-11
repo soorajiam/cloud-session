@@ -11,13 +11,15 @@
   },
   "dependencies": {
     "@primevue/themes": "^4.2.4",
+    "buffer": "^6.0.3",
     "mammoth": "^1.6.0",
     "marked": "^9.0.0",
     "nuxt": "^3.14.1592",
     "openai": "^3.3.0",
+    "primeicons": "^6.0.1",
     "primevue": "^4.2.4",
-    "vue": "latest",
-    "vue-router": "latest"
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.0"
   },
   "devDependencies": {
     "@primevue/nuxt-module": "^4.2.4",
