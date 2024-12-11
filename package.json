@@ -25,6 +25,7 @@
     "@primevue/nuxt-module": "^4.2.4",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
+    "string_decoder-browserify": "^0.0.1-security",
     "tailwindcss": "^3.4.16"
   }
 }

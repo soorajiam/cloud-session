@@ -53,7 +53,16 @@ export default defineNuxtConfig({
 
   nitro: {
     externals: {
-      inline: ['readable-stream']
+      inline: ['jszip', 'readable-stream']
+    },
+    moduleSideEffects: ['jszip', 'readable-stream'],
+    alias: {
+      'string_decoder': 'string_decoder-browserify'
+    }
+  },
+  resolve: {
+    alias: {
+      'string_decoder': 'string_decoder-browserify'
     }
   },
 
